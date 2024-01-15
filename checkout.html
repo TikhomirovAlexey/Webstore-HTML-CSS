@@ -386,146 +386,361 @@
                 </ul>
             </nav>
         </section>
-        <section class="slider">
-            <div class="slider-img-box center">
-                <img src="img/slider-photo.jpg" alt="photo">
-            </div>
-            <div class="slider-button-box">
-                <button class="slider-button">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="slider-button">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-        </section>
-        <section class="product-description center">
-            <div class="product-description-container">
-                <div class="product-info">
-                    <p class="product-collection-info">WOMEN COLLECTION</p>
-                    <h3 class="product-name">Moschino Cheap And Chic</h3>
-                    <img src="img/rating.png" alt="rating">
-                    <p class="text text__product-info">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
-                    <div class="model-description">
-                        <p class="model-description-text">
-                            MATERIAL:
-                            <span class="model-description-text__span">COTTON</span>
-                        </p>
-                        <p class="model-description-text">
-                            DESIGNER:
-                            <span class="model-description-text__span">BINBURHAN</span>
-                        </p>
-                    </div>
-                    <p class="product-price">$561</p>
-                </div>
-                <form class="prroduct-form" action="#">
-                    <div class="inputs-box">
-                        <label class="input-item">
-                            CHOOSE COLOR
-                            <select class="input-enter">
-                                <option value="red">
-                                    Red
-                                </option>
-                                <option value="yellow">
-                                    Yellow
-                                </option>
-                            </select>
+        <section class="checkout-box center">
+            <details class="chekcout-details" open>
+                <summary class="chekcout-summary">
+                    <span>01.</span>
+                    Shipping Adress
+                </summary>
+                <div class="chekcout-details-box">
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Check as a guest or register</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <div class="radio-box">
+                            <label class="radio-input-label">
+                                <input class="radio-input" type="radio" name="check-cuest">
+                                checkout as guest
+                            </label>
+                            <label class="radio-input-label">
+                                <input
+                                    class="radio-input"
+                                    type="radio"
+                                    name="check-cuest"
+                                    checked
+                                >
+                                register
+                            </label>
+                        </div>
+                        <h3 class="heading heading__checkout">Register and save time!</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <ul class="list-check-as-guest">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Fast and easy checkout
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Easy access to your order history and status
+                            </li>
+                        </ul>
+                        <button class="button button__checkout">Continue</button>
+                    </form>
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Already registed?</h3>
+                        <p class="text text__checkout">Please log in below</p>
+                        <label class="label-input-checkout">
+                            EMAIL ADDRESS
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="text" required>
                         </label>
-                        <label class="input-item">
-                            CHOOSE SIZE
-                            <select class="input-enter">
-                                <option value="XXL">XXL</option>
-                                <option value="XL">XL</option>
-                                <option value="L">L</option>
-                                <option value="M">M</option>
-                                <option value="S">S</option>
-                            </select>
+                        <label class="label-input-checkout">
+                            PASSWORD
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="password" required>
                         </label>
-                        <label class="input-item">
-                            QUANTITY
-                            <input
-                                class="input-enter"
-                                type="number"
-                                min="1"
-                                value="1"
-                            >
+                        <p class="required-text">* Required Fileds</p>
+                        <div class="checkout-btns">
+                            <button type="submit" class="button button__checkout">Log in</button>
+                            <a class="link link__checkout" href="#">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </details>
+            <details class="chekcout-details">
+                <summary class="chekcout-summary">
+                    <span>02.</span>
+                    BILLING INFORMATION
+                </summary>
+                <div class="chekcout-details-box">
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Check as a guest or register</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <div class="radio-box">
+                            <label class="radio-input-label">
+                                <input class="radio-input" type="radio" name="check-cuest">
+                                checkout as guest
+                            </label>
+                            <label class="radio-input-label">
+                                <input
+                                    class="radio-input"
+                                    type="radio"
+                                    name="check-cuest"
+                                    checked
+                                >
+                                register
+                            </label>
+                        </div>
+                        <h3 class="heading heading__checkout">Register and save time!</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <ul class="list-check-as-guest">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Fast and easy checkout
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Easy access to your order history and status
+                            </li>
+                        </ul>
+                        <button class="button button__checkout">Continue</button>
+                    </form>
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Already registed?</h3>
+                        <p class="text text__checkout">Please log in below</p>
+                        <label class="label-input-checkout">
+                            EMAIL ADDRESS
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="text" required>
                         </label>
-                    </div>
-                    <button class="button button__product-desc">
-                        <img src="img/cart-pink.png" alt="cart">
-                        Add to Cart
-                    </button>
-                </form>
-            </div>
-        </section>
-        <section class="like-also center">
-            <h2 class="subtitle subtitle__like-also">You may like also</h2>
-            <div class="cards-box">
-                <div class="card">
-                    <a href="singlePage.html">
-                        <img class="card-img" src="img/catalog/catalog-photo-10.jpg" alt="photo">
-                        <div class="card-info">
-                            <h3 class="heading">Mango People T-shirt</h3>
-                            <div class="card-info-box">
-                                <p class="card-price">$52.00</p>
-                                <img src="img/rating.png" alt="rating">
-                            </div>
+                        <label class="label-input-checkout">
+                            PASSWORD
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="password" required>
+                        </label>
+                        <p class="required-text">* Required Fileds</p>
+                        <div class="checkout-btns">
+                            <button type="submit" class="button button__checkout">Log in</button>
+                            <a class="link link__checkout" href="#">Forgot Password?</a>
                         </div>
-                    </a>
-                    <a href="#" class="button button__card">
-                        <img src="img/cart-white.png" alt="cart">
-                        Add to Cart
-                    </a>
+                    </form>
                 </div>
-                <div class="card">
-                    <a href="singlePage.html">
-                        <img class="card-img" src="img/catalog/catalog-photo-11.jpg" alt="photo">
-                        <div class="card-info">
-                            <h3 class="heading">Mango People T-shirt</h3>
-                            <div class="card-info-box">
-                                <p class="card-price">$52.00</p>
-                                <img src="img/rating.png" alt="rating">
-                            </div>
+            </details>
+            <details class="chekcout-details">
+                <summary class="chekcout-summary">
+                    <span>03.</span>
+                    SHIPPING INFORMATION
+                </summary>
+                <div class="chekcout-details-box">
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Check as a guest or register</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <div class="radio-box">
+                            <label class="radio-input-label">
+                                <input class="radio-input" type="radio" name="check-cuest">
+                                checkout as guest
+                            </label>
+                            <label class="radio-input-label">
+                                <input
+                                    class="radio-input"
+                                    type="radio"
+                                    name="check-cuest"
+                                    checked
+                                >
+                                register
+                            </label>
                         </div>
-                    </a>
-                    <a href="#" class="button button__card">
-                        <img src="img/cart-white.png" alt="cart">
-                        Add to Cart
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="singlePage.html">
-                        <img class="card-img" src="img/catalog/catalog-photo-12.jpg" alt="photo">
-                        <div class="card-info">
-                            <h3 class="heading">Mango People T-shirt</h3>
-                            <div class="card-info-box">
-                                <p class="card-price">$52.00</p>
-                                <img src="img/rating.png" alt="rating">
-                            </div>
+                        <h3 class="heading heading__checkout">Register and save time!</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <ul class="list-check-as-guest">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Fast and easy checkout
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Easy access to your order history and status
+                            </li>
+                        </ul>
+                        <button class="button button__checkout">Continue</button>
+                    </form>
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Already registed?</h3>
+                        <p class="text text__checkout">Please log in below</p>
+                        <label class="label-input-checkout">
+                            EMAIL ADDRESS
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="text" required>
+                        </label>
+                        <label class="label-input-checkout">
+                            PASSWORD
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="password" required>
+                        </label>
+                        <p class="required-text">* Required Fileds</p>
+                        <div class="checkout-btns">
+                            <button type="submit" class="button button__checkout">Log in</button>
+                            <a class="link link__checkout" href="#">Forgot Password?</a>
                         </div>
-                    </a>
-                    <a href="#" class="button button__card">
-                        <img src="img/cart-white.png" alt="cart">
-                        Add to Cart
-                    </a>
+                    </form>
                 </div>
-                <div class="card">
-                    <a href="singlePage.html">
-                        <img class="card-img" src="img/catalog/catalog-photo-13.jpg" alt="photo">
-                        <div class="card-info">
-                            <h3 class="heading">Mango People T-shirt</h3>
-                            <div class="card-info-box">
-                                <p class="card-price">$52.00</p>
-                                <img src="img/rating.png" alt="rating">
-                            </div>
+            </details>
+            <details class="chekcout-details">
+                <summary class="chekcout-summary">
+                    <span>04.</span>
+                    SHIPPING METHOD
+                </summary>
+                <div class="chekcout-details-box">
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Check as a guest or register</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <div class="radio-box">
+                            <label class="radio-input-label">
+                                <input class="radio-input" type="radio" name="check-cuest">
+                                checkout as guest
+                            </label>
+                            <label class="radio-input-label">
+                                <input
+                                    class="radio-input"
+                                    type="radio"
+                                    name="check-cuest"
+                                    checked
+                                >
+                                register
+                            </label>
                         </div>
-                    </a>
-                    <a href="#" class="button button__card">
-                        <img src="img/cart-white.png" alt="cart">
-                        Add to Cart
-                    </a>
+                        <h3 class="heading heading__checkout">Register and save time!</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <ul class="list-check-as-guest">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Fast and easy checkout
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Easy access to your order history and status
+                            </li>
+                        </ul>
+                        <button class="button button__checkout">Continue</button>
+                    </form>
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Already registed?</h3>
+                        <p class="text text__checkout">Please log in below</p>
+                        <label class="label-input-checkout">
+                            EMAIL ADDRESS
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="text" required>
+                        </label>
+                        <label class="label-input-checkout">
+                            PASSWORD
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="password" required>
+                        </label>
+                        <p class="required-text">* Required Fileds</p>
+                        <div class="checkout-btns">
+                            <button type="submit" class="button button__checkout">Log in</button>
+                            <a class="link link__checkout" href="#">Forgot Password?</a>
+                        </div>
+                    </form>
                 </div>
-            </div>
+            </details>
+            <details class="chekcout-details">
+                <summary class="chekcout-summary">
+                    <span>05.</span>
+                    PAYMENT METHOD
+                </summary>
+                <div class="chekcout-details-box">
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Check as a guest or register</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <div class="radio-box">
+                            <label class="radio-input-label">
+                                <input class="radio-input" type="radio" name="check-cuest">
+                                checkout as guest
+                            </label>
+                            <label class="radio-input-label">
+                                <input
+                                    class="radio-input"
+                                    type="radio"
+                                    name="check-cuest"
+                                    checked
+                                >
+                                register
+                            </label>
+                        </div>
+                        <h3 class="heading heading__checkout">Register and save time!</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <ul class="list-check-as-guest">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Fast and easy checkout
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Easy access to your order history and status
+                            </li>
+                        </ul>
+                        <button class="button button__checkout">Continue</button>
+                    </form>
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Already registed?</h3>
+                        <p class="text text__checkout">Please log in below</p>
+                        <label class="label-input-checkout">
+                            EMAIL ADDRESS
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="text" required>
+                        </label>
+                        <label class="label-input-checkout">
+                            PASSWORD
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="password" required>
+                        </label>
+                        <p class="required-text">* Required Fileds</p>
+                        <div class="checkout-btns">
+                            <button type="submit" class="button button__checkout">Log in</button>
+                            <a class="link link__checkout" href="#">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </details>
+            <details class="chekcout-details">
+                <summary class="chekcout-summary">
+                    <span>06.</span>
+                    ORDER REVIEW
+                </summary>
+                <div class="chekcout-details-box">
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Check as a guest or register</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <div class="radio-box">
+                            <label class="radio-input-label">
+                                <input class="radio-input" type="radio" name="check-cuest">
+                                checkout as guest
+                            </label>
+                            <label class="radio-input-label">
+                                <input
+                                    class="radio-input"
+                                    type="radio"
+                                    name="check-cuest"
+                                    checked
+                                >
+                                register
+                            </label>
+                        </div>
+                        <h3 class="heading heading__checkout">Register and save time!</h3>
+                        <p class="text text__checkout">Register with us for future convenience</p>
+                        <ul class="list-check-as-guest">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Fast and easy checkout
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                Easy access to your order history and status
+                            </li>
+                        </ul>
+                        <button class="button button__checkout">Continue</button>
+                    </form>
+                    <form class="form-checkout" action="#">
+                        <h3 class="heading heading__checkout">Already registed?</h3>
+                        <p class="text text__checkout">Please log in below</p>
+                        <label class="label-input-checkout">
+                            EMAIL ADDRESS
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="text" required>
+                        </label>
+                        <label class="label-input-checkout">
+                            PASSWORD
+                            <span class="required-text">*</span>
+                            <input class="input-checkout" type="password" required>
+                        </label>
+                        <p class="required-text">* Required Fileds</p>
+                        <div class="checkout-btns">
+                            <button type="submit" class="button button__checkout">Log in</button>
+                            <a class="link link__checkout" href="#">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </details>
         </section>
         <footer class="footer">
             <div class="footer-top center">

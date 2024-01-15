@@ -12,6 +12,24 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <aside class="aside-advertisement">
+            <button class="aside-close">Close</button>
+            <h3 class="heading">Реклама</h3>
+            <audio controls>
+                <source src="aside/korotkaya-melodiya-veseloe-otkryitie-animirovannyiy-fonovyiy-zvuk-igryi-40627.mp3" type="audio/mpeg">
+            </audio>
+            <video
+                autoplay
+                controls
+                loop
+                muted
+                preload="metadata"
+                height="150"
+                width="320"
+            >
+                <source src="aside/bmw-top-krutoe-i-korotkoe-video-v-instagram_(VIDEOMIN.NET).mp4" type="video/mp4">
+            </video>
+        </aside>
         <header class="header">
             <div class="top-header center">
                 <div class="top-header__left">
@@ -103,7 +121,7 @@
                                     <p class="cart-text">$500.00</p>
                                 </div>
                                 <div class="cart-links">
-                                    <a href="#" class="cart-link-item">Checkout</a>
+                                    <a href="checkout.html" class="cart-link-item">Checkout</a>
                                     <a href="#" class="cart-link-item">Go to cart</a>
                                 </div>
                             </div>
@@ -688,5 +706,10 @@
                 </ul>
             </div>
         </footer>
+        <script>
+            document.querySelector('.aside-close').addEventListener('click', () => {
+                document.querySelector('.aside-advertisement').classList.add('d-none');
+            });
+        </script>
     </body>
 </html>
