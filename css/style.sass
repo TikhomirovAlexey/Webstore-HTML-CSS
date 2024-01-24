@@ -967,3 +967,178 @@ body
     display: flex
     gap: 32px
     align-items: center
+
+.products
+    display: flex
+    gap: 60px
+    padding-top: 60px
+    padding-bottom: 110px
+
+.category-box
+    width: 300px
+    display: flex
+    flex-direction: column
+    gap: 18px
+
+.category-details
+    cursor: pointer
+    &__nav-box-section
+        padding: 22px 0 22px 12px
+
+.category-summary
+    list-style-type: none
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    color: #6f6e6e
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border-bottom: 1px solid $borderColor
+    border-left: 5px solid $secondColorSite
+    padding: 14px 0 14px 12px
+    transition: transform 0.3s
+
+.category-details[open] .category-summary
+    color: $secondColorSite
+
+.category-details[open] .category-summary__arrow
+    transform: rotate(180deg) translateY(-5px)
+
+.right-box
+    width: 100%
+    &__cards-box
+        grid-template-columns: repeat(3, 260px)
+        gap: 36px
+        margin-top: 48px
+        margin-bottom: 42px
+
+.top-filter
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 42px 58px
+
+.name-box
+    font-size: 14px
+    line-height: 20px
+    font-weight: 700
+    text-transform: uppercase
+    color: #6f6e6e
+    margin-bottom: 26px
+
+.top-filter-list
+    list-style-type: none
+    display: flex
+    flex-wrap: wrap
+    &__item
+        font-size: 14px
+        font-weight: 400
+        color: #6f6e6e
+        &_after-line:not(:last-child)::after
+            content: '|'
+            margin-left: 14px
+
+.trending-box
+    &__top-filter-list
+        gap: 14px 12px
+
+.size-box
+    &__top-filter-list
+        gap: 14px 24px
+    &__label-checkbox
+        display: flex
+        gap: 8px
+    &__input-checkbox
+        &_color
+            accent-color: #000
+
+.price-box
+    &__range
+        width: 100%
+
+.sort-box
+    grid-column: 1/4
+    background-color: #f3f3f3
+    padding: 10px
+    display: flex
+    align-items: center
+    gap: 10px
+    &__label
+        background-color: #fff
+        padding-left: 12px
+        border: 1px solid #ebebeb
+        font-size: 14px
+        font-weight: 400
+        color: #6f6e6e
+    &__select
+        background-color: #fff
+        padding: 10px 12px
+        border: none
+        border-left: 1px solid #ebebeb
+        margin-left: 8px
+        outline: none
+        font-size: 14px
+        font-weight: 400
+        color: #6f6e6e
+        min-width: 80px
+        -webkit-appearance: none
+        -moz-appearance: none
+        -ms-appearance: none
+        appearance: none
+        background-image: url("../img/details-arrow-down.png")
+        background-repeat: no-repeat
+        background-position: calc(100% - 15px) center
+
+.products-btn-box
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &__button
+        font-size: 16px
+        font-weight: 700
+        letter-spacing: normal
+        color: $secondColorSite
+        background-color: $buttonTextColor
+        &:hover
+            color: $buttonTextColor
+            background-color: $secondColorSite
+
+.pagination
+    display: flex
+    gap: 10px
+    padding: 16px
+    border: 1px solid #ebebeb
+    border-radius: 3px
+    background-color: #fff
+    &__btn
+        background-color: transparent
+        border: none
+        outline: none
+        font-size: 16px
+        font-weight: 700
+        color: #c4c4c4
+        cursor: pointer
+        &:hover
+            color: $secondColorSite
+
+.products-feature
+    background-color: $colorText
+    padding-top: 90px
+    padding-bottom: 115px
+    display: flex
+    gap: 80px
+
+.products-feature-item
+    display: flex
+    flex-direction: column
+    gap: 26px
+    align-items: center
+
+.products-feature-item-info
+    display: flex
+    flex-direction: column
+    gap: 18px
+    align-items: center
+
+.products-footer
+    margin-top: 0
